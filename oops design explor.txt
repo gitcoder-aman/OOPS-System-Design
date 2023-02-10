@@ -1,0 +1,25 @@
+LLD Explor
+---------------
+1) Object Cloning in java (Copy Constructor)
+2) Do Constructor return any value?
+3) why c++ support multiple inheritance but not java.
+4) Diamond Problem in java
+5) can we overload main Method?
+6) Can we Override static Method?
+
+7) Abstract class shape
+8) Abstract method -> declare without implementation
+9) Abstract -> may or may not have all Abstract method / some concrete method
+10) No object of Abstract class -> why 
+11) Abstract class is contain Constructor? yes (default/parametrized)
+12) Encapsulation vs Abstraction
+13) 100% Abstraction is contain only all methods without implementation (Interface)
+14) Advantage -> It reduce complexity of viewing things.(Easy to understand), Re-usability
+
+15) Abstraction vs Interface
+  Interface -> using Interface keyword
+                 child class has to implement the Interface.
+                 support multiple inheritance.
+
+  Abstraction -> using Abstract keyword
+                 child class has to extend the Abstract.

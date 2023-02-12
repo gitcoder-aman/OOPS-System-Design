@@ -1,4 +1,4 @@
-package Classes.Structural_Pattern.example2;
+package Classes.Adapter_Pattern.example2;
 
 public class Main_Client {
     public static void main(String[] args) {

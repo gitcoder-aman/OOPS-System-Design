@@ -1,4 +1,4 @@
-package Classes.Structural_Pattern.example1;
+package Classes.Adapter_Pattern.example1;
 
 /**
  * SquarePeg

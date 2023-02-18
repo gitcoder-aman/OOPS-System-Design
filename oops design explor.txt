@@ -23,3 +23,4 @@ LLD Explor
 
   Abstraction -> using Abstract keyword
                  child class has to extend the Abstract.
+16) What is SNS and SQS? (AWS)

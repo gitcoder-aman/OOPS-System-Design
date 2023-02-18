@@ -1,4 +1,4 @@
-package Classes.Behavioral_DesignPattern.ChainOfResopnsibility;
+package Classes.Behavioral_DesignPattern.ChainOfResopnsibility.example1;
 
 public class ConsoleBasedLogger extends Logger {
 

@@ -21,6 +21,7 @@ public class RestroService {
 
     UserDao userDao = UserDao.getInstance();
 
+    //data check kar rhe valid or not and pass kar rhe dao ke pass
     public RestaurantModel registerRestaurant(String name, String pincodes, String item, int price, int quantity) {
         if (price <= 0 || quantity < 0) {
             System.out.println("Invaid value for mandatory fields.");
@@ -51,12 +52,10 @@ public class RestroService {
     }
     public List<RestaurantModel>showRestaurant(String sortBy){
         
-        // if(sortBy.equals("price") || sortBy.equals("rating")){
-            
-        // }else{
-        //     System.out.println("your wrong parameter for sorting");
-        // }
-        return userDao.showRestaurant(sortBy);
+        if(sortBy.equals("price") || sortBy.equals("rating")){
+            return userDao.showRestaurant(sortBy);  
+        }
+        return null;
     }
 
 }

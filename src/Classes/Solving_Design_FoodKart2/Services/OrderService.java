@@ -11,6 +11,7 @@ public class OrderService {
     private OrderService() {
     }
 
+    //singleton pattern
     public static OrderService getInstance(){
         if(instance == null){
             instance = new OrderService();

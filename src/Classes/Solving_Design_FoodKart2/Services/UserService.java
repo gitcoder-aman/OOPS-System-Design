@@ -20,6 +20,7 @@ public class UserService {
 
     UserDao userdao = UserDao.getInstance();
 
+       //data check kar rhe valid or not and pass kar rhe dao ke pass
     public UserModel registerUser(Long phone, String name, Long pincode, enumGender gender){
         if(phone == null || phone < 100){
             System.out.println("Phone number can not be null !");
@@ -32,12 +33,12 @@ public class UserService {
             return null;
         }
 
-        return userdao.registUser(phone,name,pincode,gender);
+        return userdao.registerUser(phone,name,pincode,gender);
 
     }
 
-    public UserModel login(Long id){
-       return userdao.login(id);
+    public UserModel login(Long phone){
+       return userdao.login(phone);
     }
 
     

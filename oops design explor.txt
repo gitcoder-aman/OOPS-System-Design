@@ -1,4 +1,4 @@
-LLD Explor
+LLD Explore
 ---------------
 1) Object Cloning in java (Copy Constructor)
 2) Do Constructor return any value?
@@ -23,4 +23,6 @@ LLD Explor
 
   Abstraction -> using Abstract keyword
                  child class has to extend the Abstract.
-16) What is SNS and SQS? (AWS)
+16) What is AWS, SNS and SQS? (AWS)
+17) What is DAO? , POJO , MVC Pattern 
+18) custom comprator in sorting though java?
